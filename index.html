@@ -22,10 +22,10 @@
 
             <div class="input-part">
                 <label for="aggiungi">
-                    <input type="text">
+                    <input v-model="message" type="text" placeholder="Nuovo Todo">
                 </label>
 
-                <button>Aggiungi</button>
+                <button @click="aggiungiLista">Aggiungi</button>
             </div>
         </div>
 
@@ -33,7 +33,7 @@
         <div class="down">
             <div class="list-container">
                 <ul>
-                    <li class="fix">Fare i compiti<i class="fas fa-times"></i></li>
+                    <li class="fix" v-for="item in items">{{message}}<i class="fas fa-times"></i></li>
                 </ul>
             </div>
         </div>
