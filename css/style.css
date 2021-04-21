@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    width: 100%;
+}
+
+
+/*INIZIO TOP*/
+.top {
+    background-color: pink;
+    padding-top: 50px;
+}
+
+.logo img {
+    display: block;
+    margin: auto;
+    width: 300px;
+    height: auto;
+}
+
+.input-part {
+    text-align: center;
+    padding: 30px;
+}
+
+.input-part input {
+    padding: 10px 70px;
+    border-radius: 10px;
+}
+
+.input-part button {
+    padding: 10px 30px;
+    margin-left: 10px;
+}
+/*FINE TOP*/
+
+
+
+/*INIZIO DOWN*/
+
+/*FINE DOWN*/
