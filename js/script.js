@@ -12,7 +12,9 @@ var app = new Vue({
 
         message: "",
         items: [
-            
+            'Fare i compiti',
+            'Fare la spesa',
+            'Fare il bucato'
         ]
 
     },
@@ -21,6 +23,7 @@ var app = new Vue({
         aggiungiLista() {
             this.items.push(this.message);
             console.log(this.items);
+            this.message = "";
         }
     }
 })
