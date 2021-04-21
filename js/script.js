@@ -10,7 +10,7 @@ var app = new Vue({
     el: '#root',
     data: {
 
-        message: "nabbi",
+        message: "",
         items: [
             
         ]
