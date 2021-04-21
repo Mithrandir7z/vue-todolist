@@ -24,6 +24,11 @@ var app = new Vue({
             this.items.push(this.message);
             console.log(this.items);
             this.message = "";
+        },
+
+        deleteToDo(index) {
+            console.log(index);
+            this.items.splice(index, 1);
         }
     }
 })

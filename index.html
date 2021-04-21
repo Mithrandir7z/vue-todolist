@@ -33,7 +33,11 @@
         <div class="down">
             <div class="list-container">
                 <ul>
-                    <li class="fix" v-for="item in items">{{item}}<i class="fas fa-times"></i></li>
+                    <li class="fix" v-for="(item, index) in items">
+                        {{item}}
+
+                        <i @click="deleteToDo" class="fas fa-times"></i>
+                    </li>
                 </ul>
             </div>
         </div>
